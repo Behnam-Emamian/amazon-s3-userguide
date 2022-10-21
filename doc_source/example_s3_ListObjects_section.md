@@ -35,7 +35,7 @@ The source code for these examples is in the [AWS Code Examples GitHub repositor
                 Console.WriteLine($"Listing the contents of {bucketName}:");
                 Console.WriteLine("--------------------------------------");
 
-                var response = new ListObjectsV2Response();
+                ListObjectsV2Response response;
 
                 do
                 {
